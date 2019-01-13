@@ -26,4 +26,4 @@ class Clock extends Component {
 }
 
 // render an instance of Clock into <body>:
-render(<Clock />, document.body);
+render(<Clock />, document.getElementById('app'));
