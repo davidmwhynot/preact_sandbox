@@ -1,16 +1,15 @@
+const path = require('path');
+
 module.exports = {
+	mode: 'development',
 	output: { filename: 'app.js' },
 	module: {
 		rules: [
 			{
-				test: /\.jsx?/i,
-				loader: 'babel-loader',
-				options: {
-					presets: ['es2015'],
-					plugins: [
-						['transform-react-jsx', { pragma: 'h' }]
-					]
-				}
+				test: /\.(js|jsx)$/,
+				exclude: /node_modules/,
+				include: path.resolve(__dirname, 'src'),
+				loader: 'babel-loader'
 			}
 		]
 	}
