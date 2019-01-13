@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/davidmwhynot/preact_sandbox/issues"
   },
-  "homepage": "https://github.com/davidmwhynot/preact_sandbox#readme"
+  "homepage": "https://github.com/davidmwhynot/preact_sandbox#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "preact": "^8.4.2",
+    "webpack": "^4.28.4",
+    "webpack-stream": "^5.2.1"
+  }
 }
