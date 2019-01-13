@@ -1,0 +1,19 @@
+{
+  "name": "preact_sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for messing with preact.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmwhynot/preact_sandbox.git"
+  },
+  "author": "David Whynot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmwhynot/preact_sandbox/issues"
+  },
+  "homepage": "https://github.com/davidmwhynot/preact_sandbox#readme"
+}
