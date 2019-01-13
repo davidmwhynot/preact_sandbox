@@ -1,7 +1,6 @@
 const gulp = require('gulp');
 const compiler = require('webpack');
 const webpack = require('webpack-stream');
-const path = require('path');
 const webpackConfig = require('./webpack.config');
 
 gulp.task('app',
